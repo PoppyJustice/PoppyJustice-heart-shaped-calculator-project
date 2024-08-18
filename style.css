@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.calculator {
+  position: relative;
+  width: 650px;
+  height: 650px;
+  background: url("images/heart-calculator-background.png") no-repeat center
+    center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.display {
+  width: 80%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+  padding: 9px;
+  box-shadow: inset 0 0 9px rgba(19, 0, 0, 0.2);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 90%;
+  max-width: 280px;
+}
+
+.gem-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-size: cover; /* Ensures the background image covers the button */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.gem-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Assign Images to Buttons */
+.red {
+  background-image: url("images/button-1.png");
+}
+
+.blue {
+  background-image: url("images/button-1.png");
+}
+
+.green {
+  background-image: url("images/button-1.png");
+}
+
+.yellow {
+  background-image: url("images/button-1.png");
+}
+
+.pink {
+  background-image: url("images/button-1.png");
+}
+
+.purple {
+  background-image: url("images/button-1.png");
+}
+
+.orange {
+  background-image: url("images/button-1.png");
+}
+
+.teal {
+  background-image: url("images/button-1.png");
+}
+
+.additional-1 {
+  background-image: url("images/button-1.png");
+}
+
+.additional-2 {
+  background-image: url("images/button-1.png");
+}
+
+.additional-3 {
+  background-image: url("images/button-1.png");
+}
