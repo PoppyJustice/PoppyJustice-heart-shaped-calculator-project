@@ -9,17 +9,17 @@ body {
 
 .calculator {
   position: relative;
-  width: 650px;
-  height: 650px;
-  background: url("images/heart-calculator-background.png") no-repeat center
-    center;
-  background-size: cover;
+  width: 600px;
+  height: 600px;
+  background: url("images/gold-heart-calculator-background.png") no-repeat
+    center center;
+  background-size: contain; /* Ensures the full image is visible */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 0%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 6px 6px 100px rgba(0, 0, 0, 0.3); /* Adds a box shadow to the calculator */
   overflow: hidden;
 }
 
@@ -34,7 +34,7 @@ body {
   font-size: 24px;
   margin-bottom: 15px;
   padding: 9px;
-  box-shadow: inset 0 0 9px rgba(19, 0, 0, 0.2);
+  box-shadow: inset 0 0 10px rgba(22, 5, 177, 0.808); /* Stronger inset shadow for a sunken effect */
 }
 
 .buttons {
@@ -48,7 +48,7 @@ body {
 .gem-button {
   background-color: transparent;
   border: none;
-  border-radius: 50%;
+  border-radius: 22%;
   width: 40px;
   height: 40px;
   font-size: 20px;
@@ -57,7 +57,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-size: cover; /* Ensures the background image covers the button */
+  background-size: cover;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
@@ -65,47 +65,64 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Assign Images to Buttons */
-.red {
-  background-image: url("images/button-1.png");
+/* Assign unique images to each button */
+.gem-0 {
+  background-image: url("images/button-0.png");
 }
-
-.blue {
-  background-image: url("images/button-1.png");
+.gem-1 {
+  background-image: url("images/button-1a.png");
 }
-
-.green {
-  background-image: url("images/button-1.png");
+.gem-2 {
+  background-image: url("images/button-2.png");
 }
-
-.yellow {
-  background-image: url("images/button-1.png");
+.gem-3 {
+  background-image: url("images/button-3.png");
 }
-
-.pink {
-  background-image: url("images/button-1.png");
+.gem-4 {
+  background-image: url("images/button-4.png");
 }
-
-.purple {
-  background-image: url("images/button-1.png");
+.gem-5 {
+  background-image: url("images/button-5.png");
 }
-
-.orange {
-  background-image: url("images/button-1.png");
+.gem-6 {
+  background-image: url("images/button-6.png");
 }
-
-.teal {
-  background-image: url("images/button-1.png");
+.gem-7 {
+  background-image: url("images/button-7.png");
 }
-
-.additional-1 {
-  background-image: url("images/button-1.png");
+.gem-8 {
+  background-image: url("images/button-8.png");
 }
-
-.additional-2 {
-  background-image: url("images/button-1.png");
+.gem-9 {
+  background-image: url("images/button-9.png");
 }
-
-.additional-3 {
-  background-image: url("images/button-1.png");
+.gem-decimal {
+  background-image: url("images/button-calc.png");
+}
+.gem-equal {
+  background-image: url("images/button-calc.png");
+}
+.gem-add {
+  background-image: url("images/button-calc.png");
+}
+.gem-subtract {
+  background-image: url("images/button-calc.png");
+}
+.gem-multiply {
+  background-image: url("images/button-calc.png");
+}
+.gem-divide {
+  background-image: url("images/button-calc.png");
+}
+.gem-percent {
+  background-image: url("images/button-calc.png");
+}
+.gem-sqrt {
+  background-image: url("images/button-calc.png");
+}
+.gem-memory {
+  background-image: url("images/button-calc.png");
+}
+.gem-clear {
+  background-image: url("images/button-calc.png");
 }
